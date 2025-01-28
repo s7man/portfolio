@@ -93,7 +93,7 @@ const Skills = () => {
             <div key={index} className="flex items-center border rounded-full border-blue-400 shadow-md px-3 py-2 hover:scale-105 transition-transform">
               <img src={skill.img} alt={skill.title} className="w-10 h-10 md:w-20 md:h-20 object-contain" />
               <div className="ml-4">
-                <p className="text md:text-xl font-semibold">{skill.title}</p>
+                <p className="text-sm md:text-xl font-semibold">{skill.title}</p>
                 <p className="text-xs text-gray-500">{skill.level}</p>
               </div>
             </div>
