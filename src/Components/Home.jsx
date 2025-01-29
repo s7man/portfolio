@@ -1,4 +1,5 @@
 import React from "react";
+import { FaGithub } from "react-icons/fa";
 import { TiSocialTwitter } from "react-icons/ti";
 import { FaFacebook } from "react-icons/fa";
 import { RiInstagramFill } from "react-icons/ri";
@@ -31,6 +32,14 @@ const Home = () => {
           <div className="space-y-2 flex flex-col justify-center items-center md:items-start">
             <h3>Available on</h3>
             <ul className="flex space-x-4 text-lg">
+              <li>
+                <a
+                  href="https://github.com/Subhadip1001"
+                  target="_blank"
+                >
+                  <FaGithub className="cursor-pointer text-blue-500" />
+                </a>
+              </li>
               <li>
                 <a
                   href="https://www.linkedin.com/in/subhadip-mandal-110270257/"
